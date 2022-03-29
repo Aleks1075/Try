@@ -1,5 +1,7 @@
 package Biludlejning;
 
+import jdk.swing.interop.SwingInterOpUtils;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -17,6 +19,11 @@ public class Main {
         System.out.println(fleetOfCars.toString());
         System.out.println(fleetOfCars.getTotalRegistrationFeeForFleet());
 
+        MainFeature mainFeature = new MainFeature();
+        System.out.println(mainFeature);
+
+        NewFeature newFeature = new NewFeature();
+        System.out.println(newFeature);
 
     }
 }
